@@ -30,7 +30,7 @@ void testPairToNumber(
 }
 
 int main() {
-    ColorPair colorPair;
+    ColorPair colorPair = 0;
     printf("PRINTING MANUAL\n");
     for(int i =1 ;i<26;i++)
     {
