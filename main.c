@@ -9,8 +9,8 @@ int main() {
     printf("PRINTING MANUAL\n");
     for(int i =1 ;i<26;i++)
     {
-   colorPair = GetColorFromPairNumber(i);
-   printf("majorcolor-%s,minorcolor-%s,%d-pairNumber\n",MajorColorNames[colorPair.majorColor],MajorColorNames[colorPair.minorColor],i);
+     colorPair = GetColorFromPairNumber(i);
+     printf("majorcolor-%s,minorcolor-%s,%d-pairNumber\n",MajorColorNames[colorPair.majorColor],MajorColorNames[colorPair.minorColor],i);
     }
    printf("DO TEST VERIFICATION\n");
    testNumberToPair(4, WHITE, BROWN);
