@@ -3,14 +3,6 @@
 #include "Colorcoding.h"
 
 const int MAX_COLORPAIR_NAME_CHARS = 16;
-const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
-const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
-
-void ColorPairToString(const ColorPair* colorPair, char* buffer) {
-    sprintf(buffer, "%s %s",
-        MajorColorNames[colorPair->majorColor],
-        MinorColorNames[colorPair->minorColor]);
-}
 
 void testNumberToPair(int pairNumber,
     enum MajorColor expectedMajor,
